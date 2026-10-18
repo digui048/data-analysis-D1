@@ -108,8 +108,6 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /Delivery1_Simulator/[Aa]ssets/[Ss]ceneDependencyCache*
 
-# Server credentials (never commit the real config)
-server/config.php
 
 # R
 .Rhistory
