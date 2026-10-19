@@ -1,16 +1,14 @@
 # data-analysis-D1
 Delivery 1 - Game analytics pipeline and KPIs.
 
-Unity simulator → PHP server → MySQL → SQL KPIs → R statistical analysis.
+Unity simulator → PHP server → MySQL → Excel KPIs and analysis.
 
 ## Structure
 | Folder | Content |
 |---|---|
-| `Delivery1_Simulator/` | Unity project (simulator + data collection scripts) |
-| `server/` | PHP endpoints that receive events and insert them in MySQL |
-| `sql/` | Database schema, seed data and KPI queries |
-| `r/` | R scripts for statistical analysis and plots |
-| `docs/` | Presentation and figures |
+| `Delivery1_Simulator/` | Unity project (simulator + script that sends the events to the server) |
+| `server/` | PHP scripts that receive the events and insert them in MySQL |
+| `excel/` | KPIs with confidence intervals, group analysis, predictions and charts |
 
 ## Team
 - Mario Martos - [@MarioPrincesita](https://github.com/MarioPrincesita)
