@@ -8,7 +8,7 @@ try {
     $end = isset($_POST['end']) ? trim($_POST['end']) : null;
 
     // Validate input
-    if (is_null($sessionID) || is_null($end)) {
+    if (is_null($sessionID)) {
         throw new Exception("Missing or invalid parameters. Ensure sessionID and end are provided.");
     }
 

@@ -11,7 +11,7 @@ try {
     $date = isset($_POST['date']) ? trim($_POST['date']) : null;
 
     // Validate input
-    if (is_null($name) || is_null($country) || is_null($age) || is_null($gender) || is_null($date)) {
+    if (is_null($name) || is_null($date)) {
         throw new Exception("Missing or invalid parameters. Ensure name, country, age, gender and date are provided.");
     }
 
